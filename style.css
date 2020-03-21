@@ -1,0 +1,171 @@
+*{
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5;
+    color: #6c6269;
+}
+
+
+h2, h3{
+    font-family: 'Montserrat', 'Source Sans Pro';
+     text-transform: uppercase;
+    color: #b0d7df;
+}
+
+
+h3{
+    padding-top: 20px;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-fluid.flush{
+   max-width: 1200px;
+    background-color: #f0eeef;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row{
+    margin-bottom: 50px;
+}
+
+header{
+    height: 130px;
+    background-color: #b27761;
+    color: white;
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-top: -90px;
+}
+h1{
+    padding-top: 20px;
+    color: white;
+    display: inline-block;
+}
+.nav a{
+    color: white;
+}
+
+.nav a:hover{
+    color: #b0d7df;
+    text-transform:uppercase;
+   font-weight: 600;
+    outline: 2px dashed white;
+}
+
+.nav-link{
+    color: pink;
+}
+
+.nav{
+  padding-top: 55px;  
+}
+
+
+.objective, .skills{
+    padding-left: 15px;
+}
+.objective{
+    margin-top: 40px;   
+}
+
+aside{
+  margin-left: 15px;
+}
+
+.row.details{
+    padding-top: 20px;
+}
+
+.skills p{
+    line-height: 1.15;
+}
+
+.jtitle{
+    margin-bottom: 0px;
+    font-style:italic;
+    font-weight: 600;
+}
+
+.tasks{
+    margin-bottom: 3px;
+}
+
+.company.col-sm-4{
+   padding :0; 
+}
+
+.orgs{
+    margin-bottom: 0;
+}
+
+
+
+
+footer{
+    max-width:800px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #b27761;
+    line-height: 1;
+    padding: 0;
+    color: white;
+}
+
+footer a, footer p{
+    padding-top: 40px;
+    color: white;
+}
+
+.icon{
+   width: 30px;
+    height: 30px;
+    
+}
+
+
+
+@media only screen and (max-width: 756px) {
+    header{
+        height: 250px;
+    }
+    
+   
+    header.row.col-sm-12.move{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav{
+        padding-top: 20px;
+    }
+    ul.nav.justify-content-end{
+        padding-top: 0;
+    }
+    
+    footer{
+        height: 150px;
+    }
+    
+    .timeServed.col-sm-6.offset-md-2{
+        padding-left:0;
+    }
+    
+    .experience{
+        margin-left: 15px;
+    }
+    
+    .col-sm-4.scrunch{
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .row.text-center{
+        margin: 0 15px;
+    }
+}
