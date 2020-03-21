@@ -34,7 +34,10 @@ header{
     height: 130px;
     background-color: #b27761;
     color: white;
+    height: 150px;
+
 }
+
 
 
 .name img{
@@ -49,6 +52,8 @@ h1{
 }
 .nav a{
     color: white;
+    font-size: 16px;
+    margin-top: 30px;
 }
 
 .nav a:hover{
@@ -135,33 +140,45 @@ footer a, footer p{
 
 
 
-@media only screen and (max-width: 756px) {
+@media only screen and (max-width: 767px) {
    
     .experience.col-sm-8{
         margin-left: 15px;
     }
 
     header{
-        height: 250px;
+        height: 225px;
     }
     
-   
+    .name.col-sm-12.col-md-6{
+        text-align: center;
+    }
+    
     header.row.col-sm-12.move{
         margin-left: 0;
         margin-right: 0;
     }
+    
+    a.nav-link{
+        margin-top: 0;
+        font-size: 13px;
+    }
     .nav{
-        padding-top: 20px;
+        padding-top: 40px;
+        justify-content: center;
+    }
+    
+    ul.nav{
+       padding-top: 0;
     }
     ul.nav.justify-content-end{
         padding-top: 0;
+        
+        
     }
     
     .objective{
         padding-right: 15px;
-    }
-    footer{
-        height: 150px;
     }
     
     .timeServed.col-sm-12.col-md-6.offset-md-2{
@@ -172,7 +189,10 @@ footer a, footer p{
         padding-left: 15px;
     }
     
- 
+ footer{
+        height: 150px;
+    }
+    
     
     .col-sm-12.col-md-4.scrunch{
         padding-top: 0px;
@@ -182,4 +202,12 @@ footer a, footer p{
     .row.text-center{
         margin: 0 15px;
     }
+}
+
+
+@media only screen and (max-width: 386px) {
+   
+    .name img{
+        visibility: hidden;
+    }   
 }
